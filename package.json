@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo for using git",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaines16/demo.git"
+  },
+  "author": "Mason Maines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaines16/demo/issues"
+  },
+  "homepage": "https://github.com/mmaines16/demo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
